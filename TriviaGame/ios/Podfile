@@ -1,0 +1,24 @@
+# Created by react-native-pod
+target 'TriviaGame' do
+  # We uncomment because we like dynamic frameworks within working with swift projects
+  use_frameworks!
+  # Add new pods below this line
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  target 'TriviaGameTests' do
+    inherit! :search_paths
+
+    # Pods for testing
+    # Add new pods below this line
+    pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  end
+end
+target 'TriviaGame-tvOS' do
+  # We uncomment because we like dynamic frameworks witn working with swift projects
+  use_frameworks!
+  target 'TriviaGame-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

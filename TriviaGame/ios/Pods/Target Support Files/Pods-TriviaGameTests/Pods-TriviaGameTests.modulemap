@@ -1,0 +1,6 @@
+framework module Pods_TriviaGameTests {
+  umbrella header "Pods-TriviaGameTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
